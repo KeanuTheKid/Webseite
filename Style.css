@@ -1,0 +1,129 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+a {
+  color: #59c1e4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header Styles */
+header {
+  background-color: #59c1e4;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin: 0;
+  font-size: 36px;
+}
+/* Main Styles */
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+h2 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  main {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 28px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+}
+/* Navigation Styles */
+nav {
+  background-color: #59c1e4;
+  height: 60px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 20px;
+  transition: background 0.2s ease-in-out;
+  display: inline-block;
+  position: relative;
+}
+
+nav a:hover {
+  background: linear-gradient(to bottom, #59c1e4 0%,#59c1e4 20%);
+}
+
+nav a:hover:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -5px;
+  bottom: -5px;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%);
+}
