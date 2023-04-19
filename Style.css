@@ -115,15 +115,30 @@ nav a {
 }
 
 nav a:hover {
-  background: linear-gradient(to bottom, #59c1e4 0%,#59c1e4 20%);
+  background-color: #fff;
+  color: #59c1e4;
 }
 
 nav a:hover:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: -5px;
-  bottom: -5px;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%);
+  background-color: #fff;
+}
+
+nav a:hover:after {
+  background-color: #59c1e4;
+}
+.cta {
+  background-color: #59c1e4;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.cta:hover {
+  background-color: #4aa5c6;
 }
