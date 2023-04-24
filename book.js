@@ -93,4 +93,21 @@ serviceTypeSelect.addEventListener('change', () => {
     dateTimeFields.style.display = 'none';
   }
 });
+// Description added
+var toggleBtn = document.querySelector('.toggle-btn');
+var toggleContent = document.querySelector('.toggle-content');
 
+toggleBtn.addEventListener('click', function() {
+  if (toggleContent.style.display === 'block') {
+    toggleContent.style.display = 'none';
+    toggleBtn.textContent = 'Show Details';
+  } else {
+    toggleContent.style.display = 'block';
+    toggleBtn.textContent = 'Hide Details';
+  }
+});
+
+
+
+
+//////// DIGGAH ICH CHECK NIX JS////////

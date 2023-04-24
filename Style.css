@@ -176,3 +176,18 @@ tr:hover {
   font-weight: bold;
   border-radius: 5px;
 }
+#more {
+  display: none;
+  
+}
+#myBtn {
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: #59c1e4;
+  font-size: 16px;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
